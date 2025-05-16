@@ -1,4 +1,40 @@
-.head{
-  height:30%;
-  background-color: black;
+.mainNav{
+  background-color: rgb(203, 108, 0);
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  z-index: 1000;
 }
+.menu{
+  display: flex;
+  color: #ffffff;
+  font-family:'Quicksand',sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding-right: 50px;
+}
+.menu li{
+  list-style: none;
+  margin-right: 50px;
+  padding-top: 10px;
+}
+
+.kk li a{
+  text-decoration: none;   /* ลบเส้นใต้ */
+  color: inherit;          /* ใช้สีตามแม่ ไม่บังคับน้ำเงิน */
+}
+.logo{
+  color: #ffffff;
+  list-style: none;
+  font-weight: bold;
+  -webkit-text-stroke: 1% #ff9100;
+  font-size: 48px;
+  font-family:'Quicksand',sans-serif;
+}
+.ju{
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
